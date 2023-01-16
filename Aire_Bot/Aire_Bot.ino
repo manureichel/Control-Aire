@@ -25,6 +25,10 @@ int tempSet = 21;
 void setup() {
   Serial.begin(115200);
 
+  ESP.wdtDisable();
+  ESP.wdtEnable(WDTO_8S);
+  ESP.wdtFeed();
+
   ac.begin(); 
 
   Serial.println("Iniciando Bot Telegram...");
