@@ -13,9 +13,9 @@ CTBotInlineKeyboard miTeclado;
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid = "Manuel 2.4GHz";
-const char* password = "manuelreichel92";
-const String token = "5700664770:AAHdHNQGp6TwODvFhsgHk3-tK5YRWpOYwNQ"; 
+const char* ssid = "WLAN_SSID";
+const char* password = "WLAN_PASS";
+const String token = "TOKEN_TELERGAM"; 
 
 const uint16_t kIrLed = D2;
 IRElectraAc ac(kIrLed);
